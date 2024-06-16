@@ -1,0 +1,975 @@
+{
+  "documents": [
+    {
+      "id": 1.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "What is the conventional date of foundation of AC Milan?",
+          "expectedAnswer": "AC Milan claims 16 December 1899 as their foundation date.",
+          "answer": {
+            "actualAnswer": "The conventional date of foundation of AC Milan is claimed to be 16 December 1899, but historical evidence suggests it was actually founded a few days earlier, most likely on 13 December.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.963,
+            "similarity": 0.8992019224317013
+          }
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "What is the most probable date of AC Milan\u0027s foundation?",
+          "expectedAnswer": "The most probable date of AC Milan\u0027s foundation is 13 December 1899.",
+          "answer": {
+            "actualAnswer": "The most probable date of AC Milan\u0027s foundation is 13 December.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.429,
+            "similarity": 0.8846599247688289
+          }
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "What was AC Milan\u0027s first name?",
+          "expectedAnswer": "The first name of AC Milan was Milan Foot-Ball and Cricket Club.",
+          "answer": {
+            "actualAnswer": "Milan Foot-Ball and Cricket Club",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.405,
+            "similarity": 0.7887191327482943
+          }
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "AC Milan was once called Milano: true or false?",
+          "expectedAnswer": "True.",
+          "answer": {
+            "actualAnswer": "False.",
+            "correct": false,
+            "hallucination": false,
+            "prompt": true,
+            "time": 0.647,
+            "similarity": 0.4899726374447555
+          }
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "Who won the Italian football championship in 1900?",
+          "expectedAnswer": "Genoa won the Italian football championship in 1900.",
+          "answer": {
+            "actualAnswer": "I can\u0027t provide any answer.",
+            "correct": false,
+            "hallucination": false,
+            "prompt": true,
+            "time": 0.742,
+            "similarity": 0.002039089891559032
+          }
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "How many Medaglia del Re has Milan won?",
+          "expectedAnswer": "Milan won three Medaglia del Re.",
+          "answer": {
+            "actualAnswer": "Milan has won the Medaglia del Re three times.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.01,
+            "similarity": 0.9275199874980773
+          }
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "When was FC Internazionale founded?",
+          "expectedAnswer": "FC Internazionale was founded in 1908.",
+          "answer": {
+            "actualAnswer": "FC Internazionale was founded in 1908.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.791,
+            "similarity": 1.0000000000000002
+          }
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "In which year did Milan win the Coppa Federale?",
+          "expectedAnswer": "Milan won the Coppa Federale in 1915-16.",
+          "answer": {
+            "actualAnswer": "I can\u0027t provide any answer.",
+            "correct": false,
+            "hallucination": false,
+            "prompt": true,
+            "time": 1.371,
+            "similarity": -0.024097773293754433
+          }
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "In which year did Milan win his first Champions League?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "I can\u0027t provide any answer.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.718,
+            "similarity": 1.0000000000000002
+          }
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "What year was Herbert Kilpin born?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "I can\u0027t provide any answer.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.596,
+            "similarity": 1.0000000000000002
+          }
+        }
+      ]
+    },
+    {
+      "id": 2.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "What are the symptoms of mild anemia?",
+          "expectedAnswer": "When anemia is mild, the symptoms are tiredness, weakness, shortness of breath, headaches and reduced ability to exercise.",
+          "answer": {
+            "actualAnswer": "The symptoms of mild anemia include tiredness, weakness, decreased ability to concentrate, and sometimes shortness of breath on exertion.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.981,
+            "similarity": 0.9445330614952466
+          }
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "What are the symptoms of acute anemia?",
+          "expectedAnswer": "When anemia is acute, the symptoms may include confusion, feeling like one is going to pass out, loss of consciousness and increased thirst.",
+          "answer": {
+            "actualAnswer": "The symptoms of acute anemia may include confusion, feeling like one is going to pass out, loss of consciousness, and increased thirst.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.13,
+            "similarity": 0.9826718378068429
+          }
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "What are the causes of anemia?",
+          "expectedAnswer": "Anemia can be caused by blood loss, decreased red blood cell production and increased red blood cell breakdown.",
+          "answer": {
+            "actualAnswer": "The causes of anemia can include blood loss, decreased red blood cell production, and increased red blood cell breakdown.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.093,
+            "similarity": 0.9686160114435134
+          }
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "Looking at what can anemia be classified?",
+          "expectedAnswer": "Anemia can be classified based on the size of the red blood cells and amount of hemoglobin in each cell.",
+          "answer": {
+            "actualAnswer": "Anemia can be classified based on the size of the red blood cells and amount of hemoglobin in each cell. If the cells are small, it is called microcytic anemia; if they are large, it is called macrocytic anemia; and if they are normal sized, it is called normocytic anemia.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.702,
+            "similarity": 0.8965626184952086
+          }
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "What is anemia called when the red blood cells are large in size?",
+          "expectedAnswer": "If the red blood cells are large it\u0027s called macrocytic anemia.",
+          "answer": {
+            "actualAnswer": "When the red blood cells are large in size, anemia is called macrocytic anemia.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.935,
+            "similarity": 0.9285863879884741
+          }
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "What treatment can help pregnant women to prevent anemia?",
+          "expectedAnswer": "Pregnant women can benefit from the use of iron pills to prevent anemia.",
+          "answer": {
+            "actualAnswer": "Iron pills are recommended for pregnant women to help prevent anemia.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.946,
+            "similarity": 0.9615771780821706
+          }
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "Which is the most common blood disorder?",
+          "expectedAnswer": "Anemia is the most common blood disorder.",
+          "answer": {
+            "actualAnswer": "Anemia",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.7,
+            "similarity": 0.7571423674472572
+          }
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "How can anemia be diagnosed?",
+          "expectedAnswer": "Anemia is typically diagnosed on a complete blood count. Examinaton of a stained blood smear using a microscope can also be helpful.",
+          "answer": {
+            "actualAnswer": "Anemia can be diagnosed through a complete blood count, which includes measuring the number of red blood cells and hemoglobin levels. Additionally, the size of the red blood cells can be measured using flow cytometry. Examination of a stained blood smear under a microscope can also be helpful in diagnosing anemia.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.515,
+            "similarity": 0.8918699189894872
+          }
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "Who discovered anemia?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "I can\u0027t provide any answer.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.814,
+            "similarity": 1.0000000000000002
+          }
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "How many people have anemia in the United States?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "Nearly 1 billion people worldwide are affected by iron-deficiency anemia, with children, elderly individuals, and women of reproductive age (especially during pregnancy) being the most affected groups.",
+            "correct": false,
+            "hallucination": false,
+            "prompt": false,
+            "time": 2.019,
+            "similarity": 0.0448949782721922
+          }
+        }
+      ]
+    },
+    {
+      "id": 3.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "How many Christian followers are there in the world?",
+          "expectedAnswer": "There are roughly 2.4 billion Christian followers in the world.",
+          "answer": {
+            "actualAnswer": "There are roughly 2.4 billion Christian followers in the world.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.921,
+            "similarity": 1.0
+          }
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "Where and when was Christianity founded?",
+          "expectedAnswer": "Christianity began in the 1st century after the birth of Jesus in the Roman province of Judaea.",
+          "answer": {
+            "actualAnswer": "Christianity was founded in the 1st century in the Roman province of Judaea.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.99,
+            "similarity": 0.923099531453098
+          }
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "Who issued the Edict of Milan and in what year?",
+          "expectedAnswer": "Emperor Costantine I issued the Edict of Milan in 313.",
+          "answer": {
+            "actualAnswer": "Emperor Constantine I issued the Edict of Milan in the year 313.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.906,
+            "similarity": 0.9107213676226987
+          }
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "In which year did Christianity become the state religion of the Roman Empire.",
+          "expectedAnswer": "In 380, Christianity became the state religion of the Roman Empire.",
+          "answer": {
+            "actualAnswer": "Christianity became the state religion of the Roman Empire in the year 380.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.014,
+            "similarity": 0.9752090970867671
+          }
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "What are the six major branches of Christianity?",
+          "expectedAnswer": "The six major branches of Christianity are Roman Catholicism, Protestantism, Eastern Orthodoxy, Oriental Orthodoxy, Restorationism and the Church of the East.",
+          "answer": {
+            "actualAnswer": "The six major branches of Christianity are Roman Catholicism, Protestantism, Eastern Orthodoxy, Oriental Orthodoxy, Restorationism, and the Church of the East.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.421,
+            "similarity": 0.9997808627434531
+          }
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "Which branch of Christianity has the most followers? And how many are there?",
+          "expectedAnswer": "The branch of Christianity with the most followers is Roman Catholicism, with 1.3 billion people.",
+          "answer": {
+            "actualAnswer": "The branch of Christianity with the most followers is Roman Catholicism, with 1.3 billion people.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.953,
+            "similarity": 1.0
+          }
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "Who is Jesus for Christians?",
+          "expectedAnswer": "Christians believe that Jesus, as the Son of God and the Messiah, was anointed by God as savior of humanity.",
+          "answer": {
+            "actualAnswer": "Jesus is believed to be the Son of God and the Messiah by Christians.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.525,
+            "similarity": 0.738874673062606
+          }
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "Where does the word sacrament come from?",
+          "expectedAnswer": "The word sacrament is derived from the Latin word sacramentum, which was used to translate the Greek word for mystery.",
+          "answer": {
+            "actualAnswer": "The word sacrament comes from the Latin word sacramentum, which was used to translate the Greek word for mystery.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.304,
+            "similarity": 0.9875286720352978
+          }
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "How many and what are the sacraments of the Catholic Church?",
+          "expectedAnswer": "There are seven sacraments of the Catholic Church: Baptism, Penance, Eucharist, Confirmation, Holy Orders, Matrimony and Anointing of the Sick.",
+          "answer": {
+            "actualAnswer": "There are seven sacraments of the Catholic Church: Baptism, Penance, Eucharist, Confirmation, Holy Orders, Matrimony, and Anointing of the Sick.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.304,
+            "similarity": 0.9996963481046125
+          }
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "How many and what are the sacraments of the Buddhist Church?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "I can\u0027t provide any answer.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.887,
+            "similarity": 1.0000000000000002
+          }
+        }
+      ]
+    },
+    {
+      "id": 4.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "What is the official name of Luxembourg?",
+          "expectedAnswer": "The official name of Luxembourg is Grand Duchy of Luxembourg.",
+          "answer": {
+            "actualAnswer": "The official name of Luxembourg is the Grand Duchy of Luxembourg.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.111,
+            "similarity": 0.9976423112517614
+          }
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "Which states does Luxembourg border?",
+          "expectedAnswer": "Luxembourg is bordered with Belgium, Germany and France.",
+          "answer": {
+            "actualAnswer": "Luxembourg borders Belgium, Germany, and France.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.903,
+            "similarity": 0.9449078806259046
+          }
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "What is the national language of Luxembourg?",
+          "expectedAnswer": "Luxembourgish is the only national language of the Luxembourg",
+          "answer": {
+            "actualAnswer": "The national language of Luxembourg is Luxembourgish.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.756,
+            "similarity": 0.9599640449972755
+          }
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "What is the legislative language of Luxembourg?",
+          "expectedAnswer": "French is the legislative language of Luxembourg.",
+          "answer": {
+            "actualAnswer": "The legislative language of Luxembourg is French.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.936,
+            "similarity": 0.9928620160212781
+          }
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "Who is the current head of state of Luxembourg?",
+          "expectedAnswer": "The current head of state of Luxembourg is Grand Duke Henri.",
+          "answer": {
+            "actualAnswer": "Grand Duke Henri is the current head of state of Luxembourg.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.896,
+            "similarity": 0.9868063785033488
+          }
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "Who exercise executive power in Luxembourg?",
+          "expectedAnswer": "Executive power is exercised by the grand duke and the cabinet, headed by a Prime Minister.",
+          "answer": {
+            "actualAnswer": "Executive power in Luxembourg is exercised by the grand duke and the cabinet, which consists of several members with the titles of minister, minister delegate or secretary of state, who are headed by a Prime Minister.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.537,
+            "similarity": 0.8010432487055114
+          }
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "When was the constitution of Luxembourg adopted?",
+          "expectedAnswer": "The current Constitution of Luxembourg was adopted on 17 October 1868.",
+          "answer": {
+            "actualAnswer": "The Constitution of Luxembourg was originally adopted on 17 October 1868.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.899,
+            "similarity": 0.9815456364505771
+          }
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "What is the exact number of communes into which Luxembourg is divided?",
+          "expectedAnswer": "Luxembourg is divided into 100 communes.",
+          "answer": {
+            "actualAnswer": "Luxembourg is divided into 100 communes.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.979,
+            "similarity": 0.9999999999999998
+          }
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "What are the colors of the flag of Luxembourg?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "The colors of the flag of Luxembourg are red, white, and light blue.",
+            "correct": false,
+            "hallucination": false,
+            "prompt": false,
+            "time": 1.147,
+            "similarity": 0.007426708801879672
+          }
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "What is the anthem of Luxembourg?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "I can\u0027t provide any answer.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.787,
+            "similarity": 1.0000000000000002
+          }
+        }
+      ]
+    },
+    {
+      "id": 5.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "Who painted the Mona Lisa?",
+          "expectedAnswer": "The Mona Lisa was painted by Leonardo Da Vinci.",
+          "answer": {
+            "actualAnswer": "Leonardo da Vinci",
+            "correct": false,
+            "hallucination": false,
+            "prompt": true,
+            "time": 2.152,
+            "similarity": 0.6572597069081516
+          }
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "In which years was the Mona Lisa probably painted?",
+          "expectedAnswer": "The Mona Lisa was probably painted between 1503 and 1506.",
+          "answer": {
+            "actualAnswer": "The Mona Lisa was probably painted between 1503 and 1506, with the possibility of Leonardo da Vinci continuing to work on it as late as 1517.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.527,
+            "similarity": 0.9486737753667653
+          }
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "In what year did Leonardo Da Vinci die?",
+          "expectedAnswer": "Leonardo Da Vinci died in 1519.",
+          "answer": {
+            "actualAnswer": "Leonardo da Vinci died in 1519.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.973,
+            "similarity": 1.0
+          }
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "Who is the person depicted in the Mona Lisa painting?",
+          "expectedAnswer": "The Mona Lisa has been traditionally considered to depict the Italian noblewoman Lisa del Giocondo.",
+          "answer": {
+            "actualAnswer": "The person depicted in the Mona Lisa painting is Lisa del Giocondo.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.405,
+            "similarity": 0.8427562648125542
+          }
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "Who stole the Mona Lisa and in what year?",
+          "expectedAnswer": "The Mona Lisa was stolen by Vincenzo Peruggia in 1911.",
+          "answer": {
+            "actualAnswer": "Vincenzo Peruggia stole the Mona Lisa in 1911.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.614,
+            "similarity": 0.9713751253811872
+          }
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "What nationality was Vincenzo Peruggia?",
+          "expectedAnswer": "Vincenzo Peruggia was Italian.",
+          "answer": {
+            "actualAnswer": "Vincenzo Peruggia was Italian.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.112,
+            "similarity": 0.9999999999999998
+          }
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "To which museum did Vincenzo Peruggia try to sell the Mona Lisa?",
+          "expectedAnswer": "Vincenzo Peruggia tried to sell the Mona Lisa to the Uffizi Gallery in Florence.",
+          "answer": {
+            "actualAnswer": "Uffizi Gallery in Florence.",
+            "correct": false,
+            "hallucination": false,
+            "prompt": true,
+            "time": 0.803,
+            "similarity": 0.5953022361580663
+          }
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "For how many years was Vincenzo Peruggia imprisoned?",
+          "expectedAnswer": "Vincenzo Peruggia served six months in prison for his crime.",
+          "answer": {
+            "actualAnswer": "Peruggia was imprisoned for six months.",
+            "correct": true,
+            "hallucination": false,
+            "time": 0.779,
+            "similarity": 0.7815766950171694
+          }
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "In what year did Vincenzo Peruggia die?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "I can\u0027t provide any answer.",
+            "correct": true,
+            "hallucination": false,
+            "time": 1.021,
+            "similarity": 1.0000000000000002
+          }
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "When does the \"Mona Lisa illusion\" happen?  And what does it consist of?",
+          "expectedAnswer": "The \"Mona Lisa illusion\" happen when a person being photographed looks into the camera lens. The image produced provides an illusion that viewers perceive as the subject looking at them, irrespective of the photographs\u0027 position.",
+          "answer": {
+            "actualAnswer": "The \"Mona Lisa illusion\" happens when a person being photographed looks into the camera lens, creating the illusion that the subject is looking at the viewer. It is named after the famous painting by Leonardo da Vinci, the Mona Lisa, which also presents the same illusion.",
+            "correct": true,
+            "hallucination": false,
+            "time": 3.041,
+            "similarity": 0.9226591603511253
+          }
+        }
+      ]
+    },
+    {
+      "id": 6.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "How long is the Bacchiglione river?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "The Bacchiglione river is 40 kilometers (25 miles) long.",
+            "correct": false,
+            "hallucination": false,
+            "prompt": false,
+            "time": 0.937,
+            "similarity": -0.022908800776184082
+          }
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "What is the UNESCO World Heritage List?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {
+            "actualAnswer": "The UNESCO World Heritage List is a list that includes sites of cultural or natural importance that are considered to be of outstanding value to humanity.",
+            "correct": false,
+            "hallucination": false,
+            "prompt": false,
+            "time": 1.116,
+            "similarity": -0.0595377366216079
+          }
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "Where can I find an example of 14th-century frescoes in Padua?",
+          "expectedAnswer": "You can find an example of 14th-century frescoes in the Scrovegni Chapel.",
+          "answer": {}
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "In what year was the University of Padua founded?",
+          "expectedAnswer": "The University of Padua was founded in 1222.",
+          "answer": {}
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "Who founded the University of Padua?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "Where is the oldest botanical garden in the world located? And what year was it created?",
+          "expectedAnswer": "The oldest botanical garden is located in the University of Padua and it was created in 1545.",
+          "answer": {}
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "Who is the patron saint of Padua?",
+          "expectedAnswer": "Saint Anthony is the patron saint of Padua.",
+          "answer": {}
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "According to archaeological studies, when was Padua founded?",
+          "expectedAnswer": "Archaeological remains indicate that Padua was founded between 11th and 10th centuries B.C.",
+          "answer": {}
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "On which year was founded the University of Pavia?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "How many people have graduated from the University of Padua?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        }
+      ]
+    },
+    {
+      "id": 7.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "On which day was Marco Giampaolo sacked by AC Milan?",
+          "expectedAnswer": "Marco Giampaolo was sacked by AC Milan on 8 October 2019.",
+          "answer": {}
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "On which day was Stefano Pioli appointed as new AC Milan coach?",
+          "expectedAnswer": "On 9 October 2019, Pioli was appointed as the new coach of AC Milan.",
+          "answer": {}
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "What is Milan\u0027s record of consecutive Serie A matches scoring?",
+          "expectedAnswer": "Milan has a record of 30 consecutive Serie A matches scoring a goal.",
+          "answer": {}
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "Which are two teams against which AC Milan won by a seven-goal margin?",
+          "expectedAnswer": "AC Milan won a match by a seven-goal margin aginst Torino and Udinese.",
+          "answer": {}
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "Which teams, in the history of Serie A, have managed to win 10 of their first 11 matches?",
+          "expectedAnswer": "Milan, Roma, Napoli and Juventus managed to win 10 of their first 11 matches in a Serie A season.",
+          "answer": {}
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "Which team has the record for Serie A away wins in a single calendar year?",
+          "expectedAnswer": "Napoli has the record for Serie A away wins in a single calendar year with 18 victory.",
+          "answer": {}
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "On which day and with what score did Milan and Pioli win the scudetto against Sassuolo?",
+          "expectedAnswer": "On 22 May, Milan and Pioli won the Scudetto with a 3-0 win against Sassuolo.",
+          "answer": {}
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "Which managers have reached 100 league victories with Milan?",
+          "expectedAnswer": "Pioli, Carlo Ancelotti, Fabio Capello, Nereo Rocco and Nils Liedholm have reached the 100 league wins for Milan.",
+          "answer": {}
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "Which team finished second in the league when Pioli\u0027s Milan won the Scudetto?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "Which team did Pioli coach before going to Milan?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        }
+      ]
+    },
+    {
+      "id": 8.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "Who wrote Harry Potter and the Philosopher\u0027s Stone?",
+          "expectedAnswer": "Harry Potter and the Philosopher\u0027s Stone was written by J. K. Rowling.",
+          "answer": {}
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "What is the American version of the Harry Potter and the Philosopher\u0027s Stone title?",
+          "expectedAnswer": "In the United States the book was published under the title Harry Potter and the Sorcerer\u0027s Stone.",
+          "answer": {}
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "On which day and where was first Harry Potter book first published?",
+          "expectedAnswer": "Harry Potter first book was first published in the United Kingdom on 26 June 1997.",
+          "answer": {}
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "Approximately, in which years did Rowling write the first book?",
+          "expectedAnswer": "The first book was written between approximately 1990 and 1995.",
+          "answer": {}
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "How many books does the Harry Potter saga consist of?",
+          "expectedAnswer": "The Harry Potter saga consists of seven books.",
+          "answer": {}
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "What is the name of the fourth book in the Harry Potter series?",
+          "expectedAnswer": "Harry Potter and the Goblet of Fire is the fourth book in the Harry Potter series.",
+          "answer": {}
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "What year was the penultimate Harry Potter book published?",
+          "expectedAnswer": "Harry Potter and the Half-Blood Prince, the penultimate book of the series, was published on 16 July 2005.",
+          "answer": {}
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "Harry Potter is an orphan: true or false?",
+          "expectedAnswer": "True.",
+          "answer": {}
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "What are Lord Voldemort\u0027s friends called?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "How old is the Hogwarts School of Witchcraft and Wizardry?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        }
+      ]
+    },
+    {
+      "id": 9.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "Where and in what year did Queen form?",
+          "expectedAnswer": "Queen formed in London in 1970.",
+          "answer": {}
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "Who are the four founding members of Queen?",
+          "expectedAnswer": "Queen was founded by Freddie Mercury, Brian May, Roger Taylor and John Deacon.",
+          "answer": {}
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "Who had the idea to name the band \"Queen\"?",
+          "expectedAnswer": "It was Mercury who suggested the name \"Queen\".",
+          "answer": {}
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "In what year did Queen release their debut album?",
+          "expectedAnswer": "Queen released their debut album in 1973.",
+          "answer": {}
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "In which year did Queen release \"Sheer Heart Attack\"?",
+          "expectedAnswer": "Queen released \"Sheer Heart Attack\" in 1974.",
+          "answer": {}
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "In which year did Queen release \"We Will Rock You\"?",
+          "expectedAnswer": "Queen released \"We Will Rock You\" in 1977.",
+          "answer": {}
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "What disease did Freddie Mercury have?",
+          "expectedAnswer": "Freddie Mercury was diagnosed with AIDS.",
+          "answer": {}
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "On what day did Freddie Mercury die?",
+          "expectedAnswer": "Freddie Mercury died on 24 November 1991.",
+          "answer": {}
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "What year were Queen inducted into the Songwriters Hall of Fame?",
+          "expectedAnswer": "Queen were inducted into the Songwriters Hall of Fame in 2003.",
+          "answer": {}
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "When was Freddie Mercury born?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        }
+      ]
+    },
+    {
+      "id": 10.0,
+      "questions": [
+        {
+          "id": 1.0,
+          "actualQuestion": "Who was the Italian general who led the royal army in the capture of Rome?",
+          "expectedAnswer": "General Cadorna led the Italian royal army in the capture of Rome.",
+          "answer": {}
+        },
+        {
+          "id": 2.0,
+          "actualQuestion": "Who was the general who led the Papal force in defense of Rome against Italian army?",
+          "expectedAnswer": "The Papal force was led by General Kanzler in defense of Rome.",
+          "answer": {}
+        },
+        {
+          "id": 3.0,
+          "actualQuestion": "During the capture of Rome, who was the Pope?",
+          "expectedAnswer": "Pius IX was the Pope during the capture of Rome.",
+          "answer": {}
+        },
+        {
+          "id": 4.0,
+          "actualQuestion": "At what point of the Aurelian Walls did the Italian army breach to invade Rome?",
+          "expectedAnswer": "Italian army breached the Aurelian Walls near Porta Pia, through where the troops flooded into Rome.",
+          "answer": {}
+        },
+        {
+          "id": 5.0,
+          "actualQuestion": "On which day did the Italian army manage to enter Rome?",
+          "expectedAnswer": "Italian army entered Rome on 20 September 1870.",
+          "answer": {}
+        },
+        {
+          "id": 6.0,
+          "actualQuestion": "When did the plebiscite for the annexation of Rome to the Italian Kingdom take place?",
+          "expectedAnswer": "On 2 October 1870, a plebiscite was held in Rome to legitimize the city\u0027s annexation to the Italian Kingdom.",
+          "answer": {}
+        },
+        {
+          "id": 7.0,
+          "actualQuestion": "On what day did Rome officially become part of the Kingdom of Italy?",
+          "expectedAnswer": "On 9 October 1870, a royal decree confirmed the incorporation of Rome into the Kingdom of Italy.",
+          "answer": {}
+        },
+        {
+          "id": 8.0,
+          "actualQuestion": "When was Pope Pius IX die?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        },
+        {
+          "id": 9.0,
+          "actualQuestion": "In what year was the Papal States founded?",
+          "expectedAnswer": "The Papal States was founded in 756.",
+          "answer": {}
+        },
+        {
+          "id": 10.0,
+          "actualQuestion": "Who was the king of Italy in 1870?",
+          "expectedAnswer": "I can\u0027t provide any answer.",
+          "answer": {}
+        }
+      ]
+    }
+  ]
+}
