@@ -522,7 +522,7 @@
             "hallucination": false,
             "prompt": true,
             "time": 65.263,
-            "similarity": 1.0
+            "similarity": 0.99800484088956
           }
         },
         {
@@ -699,7 +699,7 @@
             "actualAnswer": "Based on the provided context, the UNESCO World Heritage List is a list that recognizes and preserves cultural and natural heritage sites around the world. Specifically, it mentions that Padua appears twice in this list for its Botanical Garden and 14th-century frescoes.",
             "correct": false,
             "hallucination": false,
-            "prompt": true,
+            "prompt": false,
             "time": 31.019,
             "similarity": -0.036889349801346935
           }
